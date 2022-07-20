@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>Enable</Nullable>
+		<CodeAnalysisRuleSet>..\..\StyleCop.ruleset</CodeAnalysisRuleSet>
+		<AssemblyName>PrismApp</AssemblyName>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+		<PackageReference Include="StyleCop.Analyzers.Unstable" Version="1.2.0.435">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PrismApp.Core\PrismApp.Core.csproj" />
+		<ProjectReference Include="..\Modules\PrismApp.Modules.Users\PrismApp.Modules.Users.csproj" />
+		<ProjectReference Include="..\Services\PrismApp.Services.Interfaces\PrismApp.Services.Interfaces.csproj" />
+		<ProjectReference Include="..\Services\PrismApp.Services\PrismApp.Services.csproj" />
+	</ItemGroup>
+</Project>
