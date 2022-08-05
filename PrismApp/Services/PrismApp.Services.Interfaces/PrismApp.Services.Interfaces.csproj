@@ -15,4 +15,8 @@
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Models\PrismApp.Models\PrismApp.Models.csproj" />
+	</ItemGroup>
 </Project>

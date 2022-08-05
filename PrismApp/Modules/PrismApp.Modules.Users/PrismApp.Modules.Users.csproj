@@ -7,6 +7,11 @@
 		<Nullable>Enable</Nullable>
 	</PropertyGroup>
 	<ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+      <_Parameter1>PrismApp.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
 		<PackageReference Include="Prism.Wpf" Version="8.1.97" />
 		<PackageReference Include="StyleCop.Analyzers.Unstable" Version="1.2.0.435">
 		  <PrivateAssets>all</PrivateAssets>

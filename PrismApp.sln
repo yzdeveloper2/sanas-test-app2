@@ -17,6 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismApp.Core", "PrismApp\P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismApp.Modules.Users", "PrismApp\Modules\PrismApp.Modules.Users\PrismApp.Modules.Users.csproj", "{B69B9AAD-9253-4827-9085-EA2CF7DF2BC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{B85A61F8-05A4-4A9A-AB72-F96898201EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Models", "PrismApp\Models\PrismApp.Models\PrismApp.Models.csproj", "{8143AC5E-50D7-4FA9-AF96-26B6844C0868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Tests", "PrismApp.Tests\PrismApp.Tests.csproj", "{3C8861E1-1C12-43AE-8E63-B9C105F881D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +49,14 @@ Global
 		{B69B9AAD-9253-4827-9085-EA2CF7DF2BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B69B9AAD-9253-4827-9085-EA2CF7DF2BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B69B9AAD-9253-4827-9085-EA2CF7DF2BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8143AC5E-50D7-4FA9-AF96-26B6844C0868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8143AC5E-50D7-4FA9-AF96-26B6844C0868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8143AC5E-50D7-4FA9-AF96-26B6844C0868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8143AC5E-50D7-4FA9-AF96-26B6844C0868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8861E1-1C12-43AE-8E63-B9C105F881D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8861E1-1C12-43AE-8E63-B9C105F881D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8861E1-1C12-43AE-8E63-B9C105F881D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8861E1-1C12-43AE-8E63-B9C105F881D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +65,7 @@ Global
 		{1312F056-04F3-4B66-BEE8-296E4D8C86A4} = {44F16081-2D06-4660-881C-4DB34787CB62}
 		{347C36B2-D227-42C1-9F01-96A368BAFB79} = {44F16081-2D06-4660-881C-4DB34787CB62}
 		{B69B9AAD-9253-4827-9085-EA2CF7DF2BC1} = {B0EB7A98-F6E6-46C6-9CDA-DD22E2BED427}
+		{8143AC5E-50D7-4FA9-AF96-26B6844C0868} = {B85A61F8-05A4-4A9A-AB72-F96898201EF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CB2769BA-6C0D-46C4-A30D-A613675F9D49}
